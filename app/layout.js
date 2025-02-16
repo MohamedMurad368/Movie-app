@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased m-20`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased m-24`}>
         <Navbar/>
         <MovieProvider>  {/* Wrap your app with MovieProvider */}
           {children}   {/* This will include the Home component */}
